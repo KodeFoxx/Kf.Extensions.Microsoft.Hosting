@@ -16,6 +16,7 @@
     <PackageIconUrl />
     <PackageReleaseNotes>- v1.0.0
 -- Initial release</PackageReleaseNotes>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

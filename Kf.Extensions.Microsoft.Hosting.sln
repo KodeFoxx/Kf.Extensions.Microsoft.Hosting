@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{878E9011-867C-4AC6-AE29-E45A58B51067}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9323C87C-A0BD-4ECC-9DC2-DE54A637E478}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0425F8D4-F0A8-464A-8D17-2FEFB456DB18}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+		.github\workflows\ubuntu-latest.yml = .github\workflows\ubuntu-latest.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kf.Extensions.Microsoft.Hosting", "Source\Kf.Extensions.Microsoft.Hosting\Kf.Extensions.Microsoft.Hosting.csproj", "{B106DB54-17E4-4BF5-9BBC-4EDF770338B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kf.Extensions.Microsoft.Hosting.UnitTests", "Tests\Kf.Extensions.Microsoft.Hosting.UnitTests\Kf.Extensions.Microsoft.Hosting.UnitTests.csproj", "{F4319279-9D9E-4908-B21F-F9E6BDCF70AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B106DB54-17E4-4BF5-9BBC-4EDF770338B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B106DB54-17E4-4BF5-9BBC-4EDF770338B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B106DB54-17E4-4BF5-9BBC-4EDF770338B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B106DB54-17E4-4BF5-9BBC-4EDF770338B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4319279-9D9E-4908-B21F-F9E6BDCF70AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4319279-9D9E-4908-B21F-F9E6BDCF70AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4319279-9D9E-4908-B21F-F9E6BDCF70AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4319279-9D9E-4908-B21F-F9E6BDCF70AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B106DB54-17E4-4BF5-9BBC-4EDF770338B3} = {878E9011-867C-4AC6-AE29-E45A58B51067}
+		{F4319279-9D9E-4908-B21F-F9E6BDCF70AA} = {9323C87C-A0BD-4ECC-9DC2-DE54A637E478}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42DB42C9-8EC4-4AE9-83DF-A44038EDBD2B}
+	EndGlobalSection
+EndGlobal
